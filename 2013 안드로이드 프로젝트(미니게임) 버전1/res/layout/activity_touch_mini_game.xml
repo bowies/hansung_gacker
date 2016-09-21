@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".TouchMiniGame" >
+
+  <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="143dp"
+      android:gravity="center"
+      android:text="TouchTouch 미니 게임"
+      android:textAlignment="center"
+      android:textSize="10pt" >
+  </TextView>
+
+  <TableRow
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+
+  </TableRow>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+
+      <TextView
+          android:layout_width="162dp"
+          android:layout_height="match_parent" />
+      <TextView
+          android:layout_width="10dp"
+          android:layout_height="match_parent" />
+      <ListView
+          android:id="@+id/MainMenuList"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" >
+
+      </ListView>
+      
+  </LinearLayout>
+</TableLayout>
